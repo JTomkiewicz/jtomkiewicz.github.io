@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="mb-auto">
       <div>
-        <h3 className="float-md-start mb-0">My portfolio</h3>
+        <h3 className="float-md-start mb-0">Jakub Tomkiewicz</h3>
         <nav className="nav nav-masthead justify-content-center float-md-end">
           <a className="nav-link active" href="#id">
             Home
