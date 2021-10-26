@@ -1,21 +1,15 @@
 import React from 'react';
 
 import './Introduction.css';
+import img from '../../../images/avatarPicture.png';
 
 const Introduction = () => {
   return (
     <section className="px-3">
-      <h1>Junior frontend developer</h1>
-
-      <p className="lead">Im the beginner</p>
+      <img src={img} alt="goupOfPpl" />
 
       <p className="lead">
-        <a
-          href="da"
-          className="btn btn-lg btn-secondary fw-bold border-white bg-white"
-        >
-          Learn more
-        </a>
+        Junior <span style={{ color: '#61DBFB' }}>React</span> Developer
       </p>
     </section>
   );

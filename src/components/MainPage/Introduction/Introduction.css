@@ -4,3 +4,8 @@
   color: #333;
   text-shadow: none;
 }
+
+img {
+  width: 15em;
+  padding: 1em;
+}
