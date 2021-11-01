@@ -26,7 +26,7 @@ const MyProjects = () => {
   ));
 
   return (
-    <section>
+    <section id="myprojects">
       <h1>My Projects</h1>
 
       {projectList}

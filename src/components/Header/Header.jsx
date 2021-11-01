@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Scrollspy from 'react-scrollspy';
 
 import './Header.css';
 
@@ -15,17 +16,22 @@ const Header = () => {
     <header className={scroll ? 'bg-dark sticky-top header-scroll' : null}>
       <div className="mb-auto">
         <h3 className="float-md-start mb-0">Jakub Tomkiewicz</h3>
-        <nav className="nav nav-masthead justify-content-center float-md-end">
-          <a className="nav-link active" href="#id">
+        <Scrollspy
+          items={['home', 'aboutme', 'myprojects']}
+          currentClassName="active"
+          componentTag={'nav'}
+          className={'nav nav-masthead justify-content-center float-md-end'}
+        >
+          <a className="nav-link" href="#home">
             Home
           </a>
-          <a className="nav-link" href="#id2">
+          <a className="nav-link" href="#aboutme">
             About me
           </a>
-          <a className="nav-link" href="#id3">
+          <a className="nav-link" href="#myprojects">
             My projects
           </a>
-        </nav>
+        </Scrollspy>
       </div>
     </header>
   );

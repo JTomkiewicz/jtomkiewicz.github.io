@@ -5,7 +5,7 @@ import img from '../../../images/avatarPicture.png';
 
 const Introduction = () => {
   return (
-    <section className="px-3">
+    <section className="px-3" id="home">
       <img src={img} alt="goupOfPpl" />
 
       <p className="lead">
