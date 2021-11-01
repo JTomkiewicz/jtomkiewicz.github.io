@@ -20,6 +20,11 @@
   color: #61dbfb;
 }
 
+#myprojects {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
 @media only screen and (max-width: 600px) {
   .column-left {
     float: none;

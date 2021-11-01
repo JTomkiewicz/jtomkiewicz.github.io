@@ -6,6 +6,12 @@
 }
 
 img {
-  width: 15em;
+  width: 26em;
   padding: 1em;
+  border-radius: 50px;
+}
+
+#home {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
