@@ -6,7 +6,7 @@ import img from '../../../images/profilePicture.JPG';
 const Introduction = () => {
   return (
     <section className="px-3" id="home">
-      <img src={img} alt="goupOfPpl" />
+      <img id="profilePic" src={img} alt="goupOfPpl" />
 
       <p className="lead junior-developer">
         Junior <span style={{ color: '#61DBFB' }}>React</span> Developer
