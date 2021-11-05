@@ -27,6 +27,7 @@
 
 @media only screen and (max-width: 600px) {
   .header-scroll {
-    visibility: hidden;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
   }
 }
