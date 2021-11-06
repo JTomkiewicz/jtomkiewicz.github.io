@@ -8,9 +8,11 @@ const Introduction = () => {
     <section className="px-3" id="home">
       <img id="profilePic" src={img} alt="goupOfPpl" />
 
-      <p className="lead junior-developer">
-        Junior <span style={{ color: '#61DBFB' }}>React</span> Developer
-      </p>
+      <div style={{ margin: 'auto' }}>
+        <div className="lead junior-developer">
+          Junior <span style={{ color: '#61DBFB' }}>React</span> Developer
+        </div>
+      </div>
     </section>
   );
 };

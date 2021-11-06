@@ -7,7 +7,7 @@ import MainPage from './components/MainPage/MainPage';
 function App() {
   return (
     <div className="d-flex h-100 text-center text-white bg-dark body-div">
-      <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div className="cover-container d-flex w-100 h-100 mx-auto flex-column">
         <Header />
         <MainPage />
         <Footer />

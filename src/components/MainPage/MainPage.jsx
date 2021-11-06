@@ -5,7 +5,7 @@ import MyProjects from './MyProjects/MyProjects';
 
 const MainPage = () => {
   return (
-    <main>
+    <main className="p-3">
       <Introduction />
       <AboutMe />
       <MyProjects />

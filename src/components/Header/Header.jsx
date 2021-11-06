@@ -13,7 +13,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={scroll ? 'sticky-top header-scroll' : null}>
+    <header className={scroll ? 'sticky-top header-scroll bg-dark' : 'p-3'}>
       <div className="mb-auto">
         <h3 className="float-md-start mb-0">Jakub Tomkiewicz</h3>
         <Scrollspy

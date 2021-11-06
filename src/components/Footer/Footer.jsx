@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="mt-auto text-white-50">
+    <footer className="mt-auto text-white-50 p-3">
       <p>
         Designed by&nbsp;
         <span className="text-white">Jakub Tomkiewicz</span>
